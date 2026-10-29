@@ -1,0 +1,10 @@
+OPTIONAL CLOUD WINDOWS BUILD
+
+This project includes .github/workflows/build-windows.yml so GitHub Actions can build the executable on a real Windows runner.
+
+1. Create a GitHub repository and upload the contents of this folder (including the hidden .github folder).
+2. Open the repository's Actions tab.
+3. Select "Build SwiftMacroPro Windows EXE" and click "Run workflow".
+4. When it finishes, open the run and download the artifact named "SwiftMacroPro-Windows-EXE". It contains SwiftMacroPro.exe.
+
+You can also build locally on Windows by double-clicking build_exe.bat. The EXE has not been compiled or tested in this Linux environment.
